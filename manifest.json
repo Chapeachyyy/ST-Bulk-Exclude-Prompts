@@ -8,5 +8,6 @@
     "settings": "settings.html",
     "author": "Chapeachyyy",
     "version": "1.0.0",
-    "auto_update": false
+    "homePage": "https://github.com/Chapeachyyy/ST-Bulk-Exclude-Prompts",
+    "auto_update": true
 }
