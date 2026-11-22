@@ -1,0 +1,15 @@
+.bulk-exclude-prompts-hint {
+    opacity: 0.7;
+    font-size: 0.85em;
+    margin-top: 5px;
+}
+
+.bulk-exclude-prompts-version {
+    opacity: 0.5;
+    font-size: 0.75em;
+    margin-top: 4px;
+}
+
+.mes_bulk_exclude_up {
+    color: var(--crimson70a);
+}
