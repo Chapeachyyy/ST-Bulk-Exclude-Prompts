@@ -10,6 +10,55 @@
     margin-top: 4px;
 }
 
-.mes_bulk_exclude_up {
+.mes_bulk_exclude_up,
+#bulk_exclude_menu_item .extensionsMenuExtensionButton {
     color: var(--crimson70a);
+}
+
+/* Wand-menu selection mode */
+#bulk_exclude_bar {
+    display: none;
+    width: 100%;
+    margin-top: 4px;
+    padding: 2px 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+body.bulk-exclude-mode #bulk_exclude_bar {
+    display: flex;
+}
+
+#bulk_exclude_bar_label {
+    opacity: 0.85;
+    font-size: 0.9em;
+}
+
+#bulk_exclude_ok {
+    background-color: var(--crimson70a);
+    cursor: pointer;
+}
+
+#bulk_exclude_ok.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+#bulk_exclude_cancel {
+    cursor: pointer;
+}
+
+body.bulk-exclude-mode #chat .del_checkbox {
+    display: grid !important;
+}
+
+body.bulk-exclude-mode #chat .for_checkbox {
+    display: none !important;
+}
+
+body.bulk-exclude-mode #chat .mes.selected {
+    background-color: rgba(120, 70, 0, 0.5);
 }
